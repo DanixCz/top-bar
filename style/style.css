@@ -1,0 +1,12 @@
+header{
+    background-color: black;
+}
+.navigace a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    margin: 0cm;
+}
