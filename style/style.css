@@ -1,12 +1,21 @@
 header{
+    display: flex;
     background-color: black;
+    justify-content: space-between;
+}
+.logo{
+    
 }
 .navigace a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+.navigace{
     display: flex;
-    justify-content: flex-end;
+    margin-top: 70px;
+    margin-right: 50px;
+    gap: 20px;
 }
 body{
-    margin: 0cm;
+    margin: 0;
 }
