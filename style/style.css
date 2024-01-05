@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
 header{
     display: flex;
     background-color: black;
@@ -6,9 +12,9 @@ header{
 .logo{
     
 }
-.navigace a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+
+main{
+    height: 460px;
 }
 .navigace{
     display: flex;
@@ -16,6 +22,50 @@ header{
     margin-right: 50px;
     gap: 20px;
 }
-body{
+
+footer{
+    background-color: black;
+}
+.wraper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid white;
+    width: 300px;
+    padding: 10px 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: white;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+}
+svg{
+    transition: 0.5s ease;
+}
+svg :hover{
+    fill: orange;
+}
+.footer-container ul{
     margin: 0;
+    padding: 0;
+    margin-left: 15px;
 }
